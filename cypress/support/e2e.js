@@ -70,3 +70,19 @@ Cypress.on('test:after:run', (test, runnable) => {
     })
   }
 });
+
+
+Cypress.on('uncaught:exception', (err) => {
+  if (err.message.includes(`Cannot read properties of undefined (reading 'includes')`) 
+  || err.message.includes('This authentication method is invalid or cannot be used in this scope')
+  || err.message.includes(`Uncaught SyntaxError: Unexpected token '<'`)
+  || err.message.includes(`Cannot read properties of null (reading 'message')`)
+  || err.message.includes(`Cannot read properties of undefined (reading 'getComputedStyle')`)
+  || err.message.includes(`Cannot read properties of undefined (reading 'length`)
+  || err.message.includes(`Cannot set properties of null (setting 'currentScaleValue')`)
+  || err.message.includes(`Cannot read properties of null (reading 'clientHeight')`)
+  || err.message.includes(`Error: ResizeObserver loop limit exceeded`)
+  ) {
+      return false
+  }
+})

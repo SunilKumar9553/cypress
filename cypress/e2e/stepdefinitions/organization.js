@@ -1,6 +1,4 @@
-Cypress.on('uncaught:exception', (err, runnable) => {
-    return false;
-    });
+
 
 const { Given } = require("cypress-cucumber-preprocessor/lib/resolveStepDefinition");
 import HomePage from "../pages/HomePage";
@@ -8,14 +6,14 @@ import NavigationMenuPage from "../pages/NavigationMenuPage";
 import data from '../../fixtures/createEditDeleteOrganisation.json'
 import OrganisationPage from "../pages/OrganisationPage";
 
-const url = Cypress.env('url')
+
 const username = Cypress.env('username')
 const password = Cypress.env('password')
 
 
 
 Given ("Login to vtiger", () => {
-    HomePage.loginToVtiger(url, username, password)
+    HomePage.loginToVtiger(data.url, username, password)
 })
 
 And ("Navigate to organization tab", () => {

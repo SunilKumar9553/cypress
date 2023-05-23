@@ -167,7 +167,7 @@ on('task', { parseXlsx({ filePath })
    // `config` is the resolved Cypress config
      
    function getConfigurationByFile(env) {
-       const pathToConfigFile = path.resolve("cypress/config", `${env}.config.json`);
+       const pathToConfigFile = path.resolve("cypress/config", `${env}.json`);
  
        return fs.readJson(pathToConfigFile);
    }

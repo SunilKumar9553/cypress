@@ -14,9 +14,10 @@
     "cy:open:test1": "./node_modules/.bin/cypress open --env configFile=test1",
     "cy:testnpdl1": "node runner.js cypress run --env configFile=testnpdl1",
     "cy:test1": "node runner.js cypress run --env configFile=test1",
-    "cypress:run_features": "cypress run --browser chrome -s cypress/e2e/features"
+    "cypress:run_features": "cypress run --browser chrome -s cypress/e2e/features",
+    "cypress:open_vtiger": "cypress open --browser chrome --env configFile=vtiger"
   },
-  "author": "muthupriya",
+  "author": "sunilkumar",
   "license": "ISC",
   "devDependencies": {
     "chrome-ext-downloader": "^1.0.4",
