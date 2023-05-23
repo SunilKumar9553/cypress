@@ -1,0 +1,20 @@
+{
+    "GIFfile": "sampleGIF.gif",
+    "JPEGfile": "sampleJPEG.jpg",
+    "JPGfile": "sampleJPG.jpg",
+    "PNGfile": "samplePNG.png",
+    "TIFFfile": "sampleTIFF.tiff",
+    "XLSfile": "sampleXLS.xls",
+    "XLSXfile": "sampleXLSX.xlsx",
+    "CSVfile": "sampleCSV.csv",
+    "DOCfile": "sampleDOC.doc",
+    "DOCXfile": "sampleDOCX.docx",
+    "PDFfile": "samplePDF.pdf",
+
+    "ZIPfile": "sampleZIP.zip",
+    "CERfile": "sampleCER.cer",
+    "TXTfile": "sampleTXT.txt",
+
+    "sample30mbfile": "sample30mb.pdf"
+
+}

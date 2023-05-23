@@ -1,0 +1,13 @@
+{
+  "env": {
+      "admin_url": "https://www.test1.stages.city.interact-lighting.com:8443/",
+      "client_url": "https://www.test1.stages.city.interact-lighting.com/",
+      "local_local": "http://localhost:4200/",
+      "client_url_testnpdl2": "https://www.test-npdl2.stages.city.interact-lighting.com/",
+      "solar_project_id": "1154",
+      "longitude":"77.62281",
+      "latitude": "13.04499",
+      "hardware_address": "aqwCvFP2Bi7n1xCkTWXBvLKIn8w=",
+      "DB": " Site serevr "
+    }
+}

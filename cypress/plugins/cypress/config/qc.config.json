@@ -1,0 +1,6 @@
+{
+    "env": {
+        "admin_url": "https://admin.test1.stages.city.interact-lighting.com:8443/",
+        "client_url": "https://www.test1.stages.city.interact-lighting.com/"
+      }
+}

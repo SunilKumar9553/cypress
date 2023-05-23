@@ -1,0 +1,194 @@
+{
+	"meta": {
+		"type": "productionOrderInfo",
+		"version": 1.2,
+		"timestamp": "2021-02-15T15:37:50+0100"
+	},
+	"data": {
+		"technical": {
+			"ltuneCode": "8VFWQPIWG39A",
+			"supplyVoltage": "~220V-240V",
+			"supplyFrequency": "50/60Hz",
+			"systemPower": 7.3,
+			"powerFactor": 0.96,
+			"colorRenderingIndex": 70,
+			"electricalSafetyClass": "I",
+			"numberOfLeds": 6,
+			"lightColor": 4000,
+			"lifetimeHours": 100000,
+			"maxAmbientTemperatureRating": 50,
+			"ip": "IP66",
+			"ik": "IK09",
+			"productFamily": "BGP760",
+			"optics": "DM10",
+			"avgSystemPower": 7.3,
+			"endSystemPower": 7.3,
+			"solutionFlux": 1002.9931640287019,
+			"T25Flux": 1000.5166085442404,
+			"correctionFactor": 1,
+			"logoCode1": 1,
+			"lateStageConfigurations": [
+				{
+					"percentage": 100,
+					"lumen": 1000,
+					"powerFactor": 0.96,
+					"systemPower": 7.300000000000001,
+					"avgSystemPower": 7.300000000000001,
+					"endSystemPower": 7.300000000000001,
+					"efficacy": 0.72
+				},
+				{
+					"percentage": 94,
+					"lumen": 956,
+					"powerFactor": 0.96,
+					"systemPower": 7.1000000000000009,
+					"avgSystemPower": 7.1000000000000009,
+					"endSystemPower": 7.1000000000000009,
+					"efficacy": 0.71
+				},
+				{
+					"percentage": 90,
+					"lumen": 909,
+					"powerFactor": 0.96,
+					"systemPower": 6.800000000000001,
+					"avgSystemPower": 6.800000000000001,
+					"endSystemPower": 6.800000000000001,
+					"efficacy": 0.7
+				},
+				{
+					"percentage": 85,
+					"lumen": 861,
+					"powerFactor": 0.96,
+					"systemPower": 6.5,
+					"avgSystemPower": 6.5,
+					"endSystemPower": 6.5,
+					"efficacy": 0.69
+				},
+				{
+					"percentage": 80,
+					"lumen": 814,
+					"powerFactor": 0.95,
+					"systemPower": 6.2,
+					"avgSystemPower": 6.2,
+					"endSystemPower": 6.2,
+					"efficacy": 0.68
+				},
+				{
+					"percentage": 79,
+					"lumen": 766,
+					"powerFactor": 0.95,
+					"systemPower": 5.9,
+					"avgSystemPower": 5.9,
+					"endSystemPower": 5.9,
+					"efficacy": 0.67
+				},
+				{
+					"percentage": 70,
+					"lumen": 718,
+					"powerFactor": 0.95,
+					"systemPower": 5.6000000000000009,
+					"avgSystemPower": 5.6000000000000009,
+					"endSystemPower": 5.6000000000000009,
+					"efficacy": 0.66
+				},
+				{
+					"percentage": 66,
+					"lumen": 670,
+					"powerFactor": 0.94,
+					"systemPower": 5.2,
+					"avgSystemPower": 5.2,
+					"endSystemPower": 5.2,
+					"efficacy": 0.65
+				},
+				{
+					"percentage": 60,
+					"lumen": 621,
+					"powerFactor": 0.94,
+					"systemPower": 5,
+					"avgSystemPower": 5,
+					"endSystemPower": 5,
+					"efficacy": 0.63
+				},
+				{
+					"percentage": 55,
+					"lumen": 573,
+					"powerFactor": 0.94,
+					"systemPower": 4.7,
+					"avgSystemPower": 4.7,
+					"endSystemPower": 4.7,
+					"efficacy": 0.6
+				},
+				{
+					"percentage": 50,
+					"lumen": 524,
+					"powerFactor": 0.93,
+					"systemPower": 4.5,
+					"avgSystemPower": 4.5,
+					"endSystemPower": 4.5,
+					"efficacy": 0.58
+				},
+				{
+					"percentage": 45,
+					"lumen": 475,
+					"powerFactor": 0.92,
+					"systemPower": 4.2,
+					"avgSystemPower": 4.2,
+					"endSystemPower": 4.2,
+					"efficacy": 0.55
+				},
+				{
+					"percentage": 40,
+					"lumen": 426,
+					"powerFactor": 0.9,
+					"systemPower": 3.9000000000000005,
+					"avgSystemPower": 3.9000000000000005,
+					"endSystemPower": 3.9000000000000005,
+					"efficacy": 0.53
+				},
+				{
+					"percentage": 35,
+					"lumen": 376,
+					"powerFactor": 0.88,
+					"systemPower": 3.6,
+					"avgSystemPower": 3.6,
+					"endSystemPower": 3.6,
+					"efficacy": 0.51
+				},
+				{
+					"percentage": 30,
+					"lumen": 327,
+					"powerFactor": 0.86,
+					"systemPower": 3.3000000000000004,
+					"avgSystemPower": 3.3000000000000004,
+					"endSystemPower": 3.3000000000000004,
+					"efficacy": 0.47
+				},
+				{
+					"percentage": 25,
+					"lumen": 277,
+					"powerFactor": 0.83,
+					"systemPower": 3,
+					"avgSystemPower": 3,
+					"endSystemPower": 3,
+					"efficacy": 0.42
+				},
+				{
+					"percentage": 20,
+					"lumen": 227,
+					"powerFactor": 0.8,
+					"systemPower": 2.7,
+					"avgSystemPower": 2.7,
+					"endSystemPower": 2.7,
+					"efficacy": 0.38
+				}
+			],
+			"systemLumen": 900,
+			"systemEfficacyRating": 123,
+			"sourceLumen": 1000,
+			"sourceEfficacyRating": 137,
+			"systemLuminousFlux": 1000,
+			"efficacyRating": 137
+		},
+		"additionalLabels": []
+	}
+}

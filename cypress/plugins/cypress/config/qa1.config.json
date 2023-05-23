@@ -1,0 +1,7 @@
+{
+  "env": {
+      "admin_url": "https://www.test-npdl2.stages.city.interact-lighting.com:8443/",
+      "client_url": "https://www.test-npdl2.stages.city.interact-lighting.com/",
+      "local_local": "http://localhost:4200/"
+    }
+}

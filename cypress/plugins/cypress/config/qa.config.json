@@ -1,0 +1,14 @@
+{
+  "env": {
+      "admin_url": "https://www.test-npdl1.stages.city.interact-lighting.com:8443/",
+      "client_url": "https://www.test-npdl1.stages.city.interact-lighting.com/",
+      "local_local": "http://localhost:4200/",
+      "client_url_testnpdl2": "https://www.test-npdl2.stages.city.interact-lighting.com/",
+      "test1_client_url": "https://www.test1.stages.city.interact-lighting.com/",
+      "solar_project_id": "1154",
+      "longitude":"4.78561",
+      "latitude": "51.58778",
+      "hardware_address": "FxpXAqMGYL+UTWlbZFMvpRaP8bY=",
+      "test1_asset_project_is": "100584"
+    }
+}

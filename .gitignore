@@ -1,0 +1,6 @@
+node_modules
+mochawesome-report
+reports
+screenshots
+#**/upload/asset
+downloads

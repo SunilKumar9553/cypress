@@ -1,0 +1,51 @@
+{
+  "name": "ctxautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run",
+    "cy:openn": "./node_modules/.bin/cypress open",
+    "cy:tags:run": "npx cypress run --env TAGS=@smokeTest",
+    "cy:test:qa": "node runner.js cypress run --env configFile=qa",
+    "cy:alltest:qc": "node runner.js cypress run --env configFile=qc",
+    "cy:run": "cypress run --headless -b chrome",
+    "cy:open:testnpdl1": "./node_modules/.bin/cypress open --env configFile=testnpdl1",
+    "cy:open:test1": "./node_modules/.bin/cypress open --env configFile=test1",
+    "cy:testnpdl1": "node runner.js cypress run --env configFile=testnpdl1",
+    "cy:test1": "node runner.js cypress run --env configFile=test1",
+    "cypress:run_features": "cypress run --browser chrome -s cypress/e2e/features"
+  },
+  "author": "muthupriya",
+  "license": "ISC",
+  "devDependencies": {
+    "chrome-ext-downloader": "^1.0.4",
+    "cypress": "^12.12.0",
+    "cypress-arrows": "^1.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-real-events": "^1.8.1",
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.0",
+    "electron-react-devtools": "^0.5.3",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.5",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "node-xlsx": "^0.16.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/stepdefinitions"
+  },
+  "dependencies": {
+    "@cypress/code-coverage": "^3.9.10",
+    "cors": "^2.8.5",
+    "cypress-downloadfile": "^1.2.1",
+    "moment": "2.24.0",
+    "xlsx": "^0.18.5"
+  }
+}
