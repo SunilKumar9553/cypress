@@ -7,13 +7,10 @@ import data from '../../fixtures/createEditDeleteOrganisation.json'
 import OrganisationPage from "../pages/OrganisationPage";
 
 
-const username = Cypress.env('username')
-const password = Cypress.env('password')
-
 
 
 Given ("Login to vtiger", () => {
-    HomePage.loginToVtiger(data.url, username, password)
+    HomePage.loginToVtiger(data.url, data.username, data.password)
 })
 
 And ("Navigate to organization tab", () => {

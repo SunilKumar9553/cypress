@@ -20,7 +20,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
       on('file:preprocessor', cucumber())
-      return require('./cypress/plugins/index.js')(on, config)
     },
     specPattern: "cypress/e2e/features/*.feature",
     testIsolation: false,
